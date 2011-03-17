@@ -2,60 +2,60 @@
 <html>
 <head>
 <meta charset="utf-8" />
-<title>HTML 5 complete</title>
+<title>tabelka 2 wer.2</title>
 <!--[if IE]>
 <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
 <style>
   article, aside, dialog, figure, footer, header,
   hgroup, menu, nav, section { display: block; }
+  table { border-spacing: 1pt;  border: 1pt solid black; } 
+  td { border: 1pt solid black; }
+  td.column_1 { text-align: left; font-style: italic; background-color: #FFFF99; font-weight: bold; padding: 0 10pt 0; }
+  td.column_2 { text-align: left; background-color: #CCFF99; padding: 0 7pt 0;}
+  td.column_3 { text-align: right; padding: 0 7pt 0; background-color: #99FFFF; } 
 </style>
 </head>
 <body>
-<table cellspacing="2" border="2" cellpadding="5">
-<capiton align="top"><b>XVI w.</b></caption>
+<table>
+<caption style="font-weight: bold;">XVI w.</caption>
  <tr>
-  <td align="left", bgcolor="#FFFF99", rowspan="2"><i><b>England</b></i><i> </i></td>
-  <td align="left", bgcolor="#CCFF99">P. Philips</td>
-  <td align="right", bgcolor="#99FFFF">1560-1628</td>
-  <td bgcolor="#00CCFF"></td>
-  <td align="left", bgcolor="#FFFF99", rowspan="2"><i><b>Netherlands</b></i><i> </i></td>
-  <td align="left", bgcolor="#CCFF99">J. P. Sweelinck</td>
-  <td align="right", bgcolor="#99FFFF">1562-1621</td>
- </tr>
- <tr>
-
-  <td align="left", bgcolor="#CCFF99">J. Bull</td>
-  <td align="right", bgcolor="#99FFFF"><i>c</i>1563-1628</td>
-  <td bgcolor="#00CCFF"></td> 
-  <td align="left", bgcolor="#CCFF99">P. Cornet</td>
-  <td align="right", bgcolor="#99FFFF"><i>c</i>1570-1633</td>
+  <td class="column_1" rowspan="2">England</td> 
+  <td class="column_2">P. Philips</td> 
+  <td class="column_3">1560 &#8211 1628</td> 
+  <td class="column_1" rowspan="2">Netherlands</td> 
+  <td class="column_2">J. P. Sweelinck</td> 
+  <td class="column_3">1562 &#8211 1621</td> 
  </tr> 
  <tr>
-  <td align="left", bgcolor="#FFFF99", rowspan="2"><i><b>Germany</b></i><i> </i></td>
-  <td align="left", bgcolor="#CCFF99">H. L. Hassler</td>
-  <td align="right", bgcolor="#99FFFF">1562-1612</td>
-  <td bgcolor="#00CCFF"></td>
-  <td align="left", bgcolor="#FFFF99"><i><b>Italy</b></i></td>
-  <td align="left", bgcolor="#CCFF99">G. Frescobaldi</td>
-  <td align="right", bgcolor="#99FFFF">1583-1643</td>
+  <td class="column_2">J. Bull</td> 
+  <td class="column_3"><i>c</i>1563 &#8211 1628</td> 
+  <td class="column_2">P. Cornet</td> 
+  <td class="column_3"><i>c</i>1570 &#8211 1633</td> 
  </tr> 
  <tr>
-  <td align="left", bgcolor="#CCFF99">M. Pr&#230torius </td>
-  <td align="right", bgcolor="#99FFFF">1571-1621</td>
-  <td bgcolor="#00CCFF"></td>
-  <td align="left", bgcolor="#FFFF99"><i><b>Spain</b></i></td>
-  <td align="left", bgcolor="#CCFF99">F.Correa de Arauxo</td>
-  <td align="right", bgcolor="#99FFFF"><i>c</i>1576-1654</td>
+  <td class="column_1" rowspan="2">Germany</td> 
+  <td class="column_2">H. L. Hassler</td> 
+  <td class="column_3">1562 &#8211 1612</td> 
+  <td class="column_1">Italy</td> 
+  <td class="column_2">G. Frescobaldi</td> 
+  <td class="column_3">1583 &#8211 1643</td> 
  </tr> 
  <tr>
-  <td align="left", bgcolor="#FFFF99"><i><b>France</b></i></td>
-  <td align="left", bgcolor="#CCFF99">J. Titelouze </td>
-  <td align="right", bgcolor="#99FFFF">1563-1633</td>
-  <td bgcolor="#00CCFF"></td>
-  <td align="left", bgcolor="#FFFF99"><i><b>Portugal</b></i></td>
-  <td align="left", bgcolor="#CCFF99">M. R.Coelho</td>
-  <td align="right", bgcolor="#99FFFF"><i>c</i>1555-<i>c</i>1635</td>
+ 
+  <td class="column_2">M. Pr&#230torius</td>
+  <td class="column_3">1571 &#8211 1621</td>
+  <td class="column_1">Spain</td>
+  <td class="column_2">F.Correa de Arauxo</td> 
+  <td class="column_3"><i>c</i>1576 &#8211 1654</td> 
+ </tr> 
+ <tr>
+  <td class="column_1">France</td> 
+  <td class="column_2">J. Titelouze</td> 
+  <td class="column_3">1563 &#8211 1633</td> 
+  <td class="column_1">Portugal</td> 
+  <td class="column_2">M. R.Coelho</td> 
+  <td class="column_3"><i>c</i>1555 &#8211 <i>c</i>1635</td> 
  </tr> 
 </table>  
 </body>

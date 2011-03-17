@@ -9,47 +9,52 @@
 <style>
   article, aside, dialog, figure, footer, header,
   hgroup, menu, nav, section { display: block; }
+  table { border: 1pt solid black; width: 250pt; cellpadding: 5pt; }
+  thead { text-align: center; }
+  td { padding: 3pt  20pt 0 20pt;}
+  td.column {  text-align: right; }
 </style>
+
 </head>
 <body>
-<table  border="1" width=300 cellpadding="5" rules="groups">
+<table  rules="groups">
 <colgroup span="1"></colgroup>
 
-	<tbody>
+	<thead>
 		<tr>
-			<td align="center">Year</td> 
-			<td align="center">World Population</td> 
+			<td>Year</td> 
+			<td>World Population</td> 
 			</tr> 
-	</tbody>
+	</thead>
 
 		<tr>
-			<td align="right">8000 B.C.</td> 
-			<td align="right">5,000,000</td> 
+			<td class="column">8000 B.C.</td> 
+			<td class="column">5,000,000</td> 
 		</tr> 
 		
 		<tr>
-			<td align="right">50 A.D.</td> 
-			<td align="right">200,000,000</td> 
+			<td class="column">50 A.D.</td> 
+			<td class="column">200,000,000</td> 
 		</tr> 
  
 		<tr>
-			<td align="right">1650 A.D.</td> 
+			<td class="column">1650 A.D.</td> 
 			<td align="right">500,000,000</td> 
 		</tr> 
 		
 		<tr>
-			<td align="right">1850 A.D.</td> 
-			<td align="right">1,000,000,000</td> 
+			<td class="column">1850 A.D.</td> 
+			<td class="column">1,000,000,000</td> 
 		</tr> 
  
 		<tr>
-			<td align="right">1945 A.D.</td> 
-			<td align="right">2,300,000,000</td> 
+			<td class="column">1945 A.D.</td> 
+			<td class="column">2,300,000,000</td> 
 		</tr> 
  
 		<tr>
-			<td align="right">1980 A.D.</td> 
-			<td align="right">4,400,000,000</td> 
+			<td class="column">1980 A.D.</td> 
+			<td class="column">4,400,000,000</td> 
 		</tr> 
 
 </table>  

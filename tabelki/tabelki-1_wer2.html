@@ -2,67 +2,83 @@
 <html>
 <head>
 <meta charset="utf-8" />
-<title>HTML 5 complete</title>
+<title>KURCZAKI PODPICOWANE</title>
+
 <!--[if IE]>
 <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
 <style>
   article, aside, dialog, figure, footer, header,
   hgroup, menu, nav, section { display: block; }
+  table { border-spacing: 1pt; } 
+  td.naglowek { text-align: center; font-style: italic; background-color: #66CCCC; font-weight: bold; padding: 0 5pt 0; }
+  td.naglowek_1 { text-align: right; font-style: italic; background-color: #66CCCC; font-weight: bold; padding-right: 5pt; }
+  td.naglowek_2 { text-align: left; font-style: italic; background-color: #66CCCC; font-weight: bold; padding-left: 5pt;}
+  th.column_first { text-align: right; background-color: #66CCCC; padding-right: 5pt; }
+  td.column_middle_1 { text-align: center; font-style: italic; background-color: #CCFFFF; color: navy; padding: 0 5pt 0; }
+  td.column_middle_2 { text-align: center; background-color: #CCFFFF; color: navy; padding: 0 5pt 0; }
+  td.column_last { text-align: left; background-color: #CCFFFF; color: navy; padding-left: 5pt; }
 </style>
+
+
 </head>
 <body>
-<table cellspacing="2" cellpadding="2">
-<capiton align="top"><b>KURCZAKI</b></caption>
-<tr></tr>
- <tr bgcolor="#66CCCC">
-  <th align="right"><i>American </i><br /><i>Checken</i></th> 
-  <th align="center"><i>French </i><br /><i>Connection</i></th> 
-  <th align="center"><i>Age</i> <br /><i>(months)</i></th> 
-  <th align="center"><i>Weight</i><br /><i>(lbs.)</i></th> 
-  <th align="left"><i>Cooking</i> <br /><i>Methods</i></th> 
+<table>
+<caption style="font-weight: bold;">KURCZAKI</caption>
+ <tr>
+  <td class="naglowek_1">American<br />Checken</td> 
+  <td class="naglowek">French<br />Connection</td> 
+  <td class="naglowek">Age<br />(months)</td> 
+  <td class="naglowek">Weight<br />(lbs.)</td> 
+  <td class="naglowek_2">Cooking <br />Methods</td> 
  </tr> 
+ 
  <tr>
-  <th align="right", bgcolor="#66CCCC">Squab</th> 
-  <td align="center", bgcolor="#CCFFFF"><i><font color="navy">Poussin</font></i></td> 
-  <td align="center", bgcolor="#CCFFFF"><font color="navy">2</font></td> 
-  <td align="center", bgcolor="#CCFFFF"><font color="navy">&frac34 to 1</font></td> 
-  <td align="left", bgcolor="#CCFFFF"><font color="navy">Broil, Grill, Roast</font></td> 
+  <th class="column_first">Squab</th> 
+  <td class="column_middle_1">Poussin</td> 
+  <td class="column_middle_2">2</td>
+  <td class="column_middle_2"> &frac34 to 1</td> 
+  <td class="column_last">Broil, Grill, Roast</td> 
  </tr> 
+ 
  <tr>
-  <th align="right", bgcolor="#66CCCC">Broiler</th> 
-  <td align="center", bgcolor="#CCFFFF"><i><font color="navy">Poulet Nouveau</font></i></td> 
-  <td align="center", bgcolor="#CCFFFF"><font color="navy">2 to 3</font></td> 
-  <td align="center", bgcolor="#CCFFFF"><font color="navy">1 &frac12 to 2 &frac12 </font></td> 
-  <td align="left", bgcolor="#CCFFFF"><font color="navy">Broil, Grill, Roast</font></td> 
+  <th class="column_first">Broiler</th> 
+  <td class="column_middle_1">Poulet Nouveau</td> 
+  <td class="column_middle_2">2 to 3</td> 
+  <td class="column_middle_2">1&frac12 to 2&frac12</td> 
+  <td class="column_last">Broil, Grill, Roast</td> 
  </tr> 
+ 
  <tr>
-  <th align="right", bgcolor="#66CCCC">Fryer</th> 
-  <td align="center", bgcolor="#CCFFFF"><i><font color="navy">Poulet Reine</font></i></td> 
-  <td align="center", bgcolor="#CCFFFF"><font color="navy">3 to 5</font></td> 
-  <td align="center", bgcolor="#CCFFFF"><font color="navy">2 to 3</font></td> 
-  <td align="left", bgcolor="#CCFFFF"><font color="navy">Fry, Saut&#233, Roast</font></td> 
+  <th class="column_first">Fryer</th> 
+  <td class="column_middle_1">Poulet Reine</td> 
+  <td class="column_middle_2">3 to 5</td> 
+  <td class="column_middle_2">2 to 3</td> 
+  <td class="column_last">Fry, Saut&#233, Roast</td> 
  </tr>
+ 
  <tr>
-  <th align="right", bgcolor="#66CCCC">Roaster</th> 
-  <td align="center", bgcolor="#CCFFFF"><i><font color="navy">Poularde</font></i></td> 
-  <td align="center", bgcolor="#CCFFFF"><font color="navy"5> &frac12 to 9</font></td> 
-  <td align="center", bgcolor="#CCFFFF"><font color="navy">Over 3</font></td> 
-  <td align="left", bgcolor="#CCFFFF"><font color="navy">Roast, Poach, Fricassee</font></td> 
+  <th class="column_first">Roaster</th> 
+  <td class="column_middle_1">Poularde</td> 
+  <td class="column_middle_2">5&frac12 to 9</td> 
+  <td class="column_middle_2">Over 3</td> 
+  <td class="column_last">Roast, Poach, Fricassee</td> 
  </tr>
+ 
  <tr>
-  <th align="right", bgcolor="#66CCCC">Fowl</th> 
-  <td align="center", bgcolor="#CCFFFF"><i><font color="navy">Poule de l'Ann&#233e </font></i></td> 
-  <td align="center", bgcolor="#CCFFFF"><font color="navy">10 to 12</font></td> 
-  <td align="center", bgcolor="#CCFFFF"><font color="navy">Over 3</font></td> 
-  <td align="left", bgcolor="#CCFFFF"><font color="navy">Stew, Fricassee</font></td> 
+  <th class="column_first">Fowl</th> 
+  <td class="column_middle_1">Poule de l'Ann&#233e</td> 
+  <td class="column_middle_2">10 to 12</td> 
+  <td class="column_middle_2">Over 3</td> 
+  <td class="column_last">Stew, Fricassee</td> 
  </tr>
+ 
  <tr>
-  <th align="right", bgcolor="#66CCCC">Rooster</th> 
-  <td align="center", bgcolor="#CCFFFF"><i><font color="navy">Coq</font></i></td> 
-  <td align="center", bgcolor="#CCFFFF"><font color="navy">Over 12</font></td> 
-  <td align="center", bgcolor="#CCFFFF"><font color="navy">Over 3</font></td> 
-  <td align="left", bgcolor="#CCFFFF"><font color="navy">Soup stock, Forcemeat</font></td> 
+  <th class="column_first">Rooster</th> 
+  <td class="column_middle_1">Coq</td> 
+  <td class="column_middle_2">Over 12</td> 
+  <td class="column_middle_2">Over 3</td> 
+  <td class="column_last">Soup stock, Forcemeat</td> 
  </tr>
 </table>  
 </body>
